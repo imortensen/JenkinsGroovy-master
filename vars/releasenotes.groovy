@@ -1,5 +1,6 @@
 import groovy.io.*;
 
+@NonCPS
 def call(Map config = [:]){
     //def dir = new File("/Users/isaac.mortensen/pluralsight/JenkinsGroovy-master/ConsoleApp1");
     def dir = new File(pwd());
