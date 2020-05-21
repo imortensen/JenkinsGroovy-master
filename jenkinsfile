@@ -25,4 +25,7 @@ node {
     stage('Deploy') {
         echo 'Deploying....'
     }
+    stage('Archive') {
+        archiveArtifacts artifacts: 'ConsoleApp1/*.*'
+    }
 }
